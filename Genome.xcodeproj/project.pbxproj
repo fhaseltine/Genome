@@ -58,7 +58,7 @@
 		0FCFC94014E0383E00AF1C2A /* GenomeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenomeTests.h; sourceTree = "<group>"; };
 		0FCFC94114E0383E00AF1C2A /* GenomeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenomeTests.m; sourceTree = "<group>"; };
 		0FCFC94B14E03A5A00AF1C2A /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		0FCFC94D14E04F6300AF1C2A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		0FCFC94D14E04F6300AF1C2A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -445,6 +445,7 @@
 				0FCFC94714E0383E00AF1C2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0FCFC94814E0383E00AF1C2A /* Build configuration list for PBXNativeTarget "GenomeTests" */ = {
 			isa = XCConfigurationList;
@@ -453,6 +454,7 @@
 				0FCFC94A14E0383E00AF1C2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
