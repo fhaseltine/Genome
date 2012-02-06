@@ -14,13 +14,14 @@
 		0FCFC92014E0383E00AF1C2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FCFC91F14E0383E00AF1C2A /* main.m */; };
 		0FCFC92414E0383E00AF1C2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FCFC92314E0383E00AF1C2A /* AppDelegate.m */; };
 		0FCFC92714E0383E00AF1C2A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FCFC92514E0383E00AF1C2A /* MainStoryboard.storyboard */; };
-		0FCFC92A14E0383E00AF1C2A /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FCFC92914E0383E00AF1C2A /* MasterViewController.m */; };
-		0FCFC92D14E0383E00AF1C2A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FCFC92C14E0383E00AF1C2A /* DetailViewController.m */; };
+		0FCFC92A14E0383E00AF1C2A /* GenesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FCFC92914E0383E00AF1C2A /* GenesController.m */; };
+		0FCFC92D14E0383E00AF1C2A /* ChromosomeMapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FCFC92C14E0383E00AF1C2A /* ChromosomeMapController.m */; };
 		0FCFC93514E0383E00AF1C2A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FCFC93414E0383E00AF1C2A /* SenTestingKit.framework */; };
 		0FCFC93614E0383E00AF1C2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FCFC91314E0383E00AF1C2A /* UIKit.framework */; };
 		0FCFC93714E0383E00AF1C2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FCFC91514E0383E00AF1C2A /* Foundation.framework */; };
 		0FCFC93F14E0383E00AF1C2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0FCFC93D14E0383E00AF1C2A /* InfoPlist.strings */; };
 		0FCFC94214E0383E00AF1C2A /* GenomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FCFC94114E0383E00AF1C2A /* GenomeTests.m */; };
+		0FCFC94C14E03A5A00AF1C2A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0FCFC94B14E03A5A00AF1C2A /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,23 +39,24 @@
 		0FCFC91314E0383E00AF1C2A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0FCFC91514E0383E00AF1C2A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0FCFC91714E0383E00AF1C2A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		0FCFC91B14E0383E00AF1C2A /* Genome-Info.plist */ = {isa = PBXFileReference; path = "Genome-Info.plist"; sourceTree = "<group>"; };
+		0FCFC91B14E0383E00AF1C2A /* Genome-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Genome-Info.plist"; sourceTree = "<group>"; };
 		0FCFC91D14E0383E00AF1C2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0FCFC91F14E0383E00AF1C2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0FCFC92114E0383E00AF1C2A /* Genome-Prefix.pch */ = {isa = PBXFileReference; path = "Genome-Prefix.pch"; sourceTree = "<group>"; };
-		0FCFC92214E0383E00AF1C2A /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		0FCFC92114E0383E00AF1C2A /* Genome-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Genome-Prefix.pch"; sourceTree = "<group>"; };
+		0FCFC92214E0383E00AF1C2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0FCFC92314E0383E00AF1C2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0FCFC92614E0383E00AF1C2A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		0FCFC92814E0383E00AF1C2A /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
-		0FCFC92914E0383E00AF1C2A /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		0FCFC92B14E0383E00AF1C2A /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
-		0FCFC92C14E0383E00AF1C2A /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		0FCFC92814E0383E00AF1C2A /* GenesController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenesController.h; sourceTree = "<group>"; };
+		0FCFC92914E0383E00AF1C2A /* GenesController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenesController.m; sourceTree = "<group>"; };
+		0FCFC92B14E0383E00AF1C2A /* ChromosomeMapController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChromosomeMapController.h; sourceTree = "<group>"; };
+		0FCFC92C14E0383E00AF1C2A /* ChromosomeMapController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChromosomeMapController.m; sourceTree = "<group>"; };
 		0FCFC93314E0383E00AF1C2A /* GenomeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenomeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FCFC93414E0383E00AF1C2A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		0FCFC93C14E0383E00AF1C2A /* GenomeTests-Info.plist */ = {isa = PBXFileReference; path = "GenomeTests-Info.plist"; sourceTree = "<group>"; };
+		0FCFC93C14E0383E00AF1C2A /* GenomeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GenomeTests-Info.plist"; sourceTree = "<group>"; };
 		0FCFC93E14E0383E00AF1C2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0FCFC94014E0383E00AF1C2A /* GenomeTests.h */ = {isa = PBXFileReference; path = GenomeTests.h; sourceTree = "<group>"; };
+		0FCFC94014E0383E00AF1C2A /* GenomeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenomeTests.h; sourceTree = "<group>"; };
 		0FCFC94114E0383E00AF1C2A /* GenomeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenomeTests.m; sourceTree = "<group>"; };
+		0FCFC94B14E03A5A00AF1C2A /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,10 +119,11 @@
 				0FCFC92214E0383E00AF1C2A /* AppDelegate.h */,
 				0FCFC92314E0383E00AF1C2A /* AppDelegate.m */,
 				0FCFC92514E0383E00AF1C2A /* MainStoryboard.storyboard */,
-				0FCFC92814E0383E00AF1C2A /* MasterViewController.h */,
-				0FCFC92914E0383E00AF1C2A /* MasterViewController.m */,
-				0FCFC92B14E0383E00AF1C2A /* DetailViewController.h */,
-				0FCFC92C14E0383E00AF1C2A /* DetailViewController.m */,
+				0FCFC92814E0383E00AF1C2A /* GenesController.h */,
+				0FCFC92914E0383E00AF1C2A /* GenesController.m */,
+				0FCFC92B14E0383E00AF1C2A /* ChromosomeMapController.h */,
+				0FCFC94B14E03A5A00AF1C2A /* .gitignore */,
+				0FCFC92C14E0383E00AF1C2A /* ChromosomeMapController.m */,
 				0FCFC91A14E0383E00AF1C2A /* Supporting Files */,
 			);
 			path = Genome;
@@ -228,6 +231,7 @@
 			files = (
 				0FCFC91E14E0383E00AF1C2A /* InfoPlist.strings in Resources */,
 				0FCFC92714E0383E00AF1C2A /* MainStoryboard.storyboard in Resources */,
+				0FCFC94C14E03A5A00AF1C2A /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,8 +268,8 @@
 			files = (
 				0FCFC92014E0383E00AF1C2A /* main.m in Sources */,
 				0FCFC92414E0383E00AF1C2A /* AppDelegate.m in Sources */,
-				0FCFC92A14E0383E00AF1C2A /* MasterViewController.m in Sources */,
-				0FCFC92D14E0383E00AF1C2A /* DetailViewController.m in Sources */,
+				0FCFC92A14E0383E00AF1C2A /* GenesController.m in Sources */,
+				0FCFC92D14E0383E00AF1C2A /* ChromosomeMapController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
